@@ -35,10 +35,12 @@ def check_in(mid  ,  type  ,  src) :
 
 def summary() :
     central  =  stations['CENTRAL']
+    print("Total Collection")
     print(central.total_ammount)
     print(central.discount)
     print(central.passengerHistory)
     airport  =  stations['AIRPORT']
+    print("Total Collection")
     print(airport.total_ammount)
     print(airport.discount)
     print(airport.passengerHistory)
